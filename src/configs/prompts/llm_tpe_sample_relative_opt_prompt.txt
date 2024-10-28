@@ -1,0 +1,6 @@
+Current best score: {best_score}
+Current best parameters: {best_params}
+Parameter ranges: {current_ranges}
+Suggest based on search space: {search_space_dict}, considering all previous trials.
+suggest integer for num_leaves, max_depth, n_estimators, min_child_samples, float otherwise.
+Provide only JSON format of suggested parameters with param_name: value based on parameter names from parameter ranges.
