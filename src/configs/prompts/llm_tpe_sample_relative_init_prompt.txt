@@ -1,0 +1,4 @@
+This is the first trial for hyperparameter tuning, no previous trials to consider.
+Suggest based on search space: {search_space_dict}.
+Suggest integer for num_leaves, max_depth, n_estimators, min_child_samples, float otherwise.
+Provide only JSON format of suggested parameters with param_name: value based on parameter names from parameter ranges.

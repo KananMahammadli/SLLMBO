@@ -1,0 +1,14 @@
+Goal: Find the best possible hyperparameter values for {model_name} model to {direction} the {metric} metric.
+Current best score: {best_score}
+Current best parameters: {best_params}
+Last used parameter ranges: {current_ranges}
+
+1. Decide whether to update the parameter ranges or continue with the current ranges.
+2. Suggest the next set of parameters to try.
+
+Provide your response as a JSON object with keys:
+    - 'update_param_ranges': boolean
+    - 'new_param_ranges': dictionary of new ranges (if update_param_ranges is true)
+    - 'next_params': dictionary of next parameter values to try
+
+When there is no improvement to best {metric} for some iterations, consider exploration too, and balance between exploration and exploitation.

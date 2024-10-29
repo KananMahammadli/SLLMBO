@@ -1,0 +1,8 @@
+Summarize the conversation history, focusing on the most important information for hyperparameter tuning:
+    1. Keep track of the best parameters and scores found so far.
+    2. Summarize key trends and decisions made during the optimization.
+    3. Maintain a balance between exploration and exploitation.
+    4. Ensure the summary is concise while retaining crucial information.
+
+Current conversation history: {conversation_history}
+Provide your summary as a list of messages, each with 'role' and 'content' keys.

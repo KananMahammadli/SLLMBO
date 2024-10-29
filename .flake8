@@ -1,0 +1,21 @@
+[flake8]
+max-line-length = 100
+extend-ignore = 
+    # E203: Whitespace before ':'
+    E203,
+    # W503: Line break before binary operator
+    W503,
+    # W504: Line break after binary operator
+    W504  
+per-file-ignores =
+    # E501: Ignore line too long error on test files
+    tests/*: E501    
+exclude =
+    .git
+    build
+    data
+    data-playground
+    _venv
+    venv
+    resources
+    scripts

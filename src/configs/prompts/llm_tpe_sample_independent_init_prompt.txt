@@ -1,0 +1,4 @@
+This is the first trial for hyperparameter tuning, no previous trials to consider.
+Suggest a value for the parameter '{param_name}' within its range: {param_range}.
+Provide JSON format with key and value pair: {param_name}: suggested_value
+Make sure {param_name} key exists in the JSON format.
